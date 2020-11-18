@@ -27,11 +27,11 @@ router.register('api_info', views.APIInfoViewSet)
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="测试工程API",
+      title="Auto generate API",
       default_version='v1.0',
-      description="测试工程接口文档",
-      terms_of_service="https://www.cnblogs.com/jinjiangongzuoshi/",
-      contact=openapi.Contact(email="狂师"),
+      description="接口文档",
+      terms_of_service="",
+      contact=openapi.Contact(email="xiaotiantian_cool@163.com"),
       license=openapi.License(name="BSD License"),
    ),
    public=True,
